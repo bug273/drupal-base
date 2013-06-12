@@ -1,0 +1,16 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+nbproject
+nbproject/*
+sites/*/private
+sites/default/files/js
+sites/default/files/css
+cometchat/integration.php
+cometchat/integration.php
+cometchat/cache
+cometchat/config.php
+cometchat/error_log
+cometchat
+cometchat/*
