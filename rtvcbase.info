@@ -62,4 +62,4 @@ dependencies[] = views_ui
 dependencies[] = views_content
 dependencies[] = wysiwyg
 
-;files[] = rtvcbase.profile
+files[] = rtvcbase.profile
