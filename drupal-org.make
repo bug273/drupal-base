@@ -1,6 +1,5 @@
 core = 7.x
 api = 2
-projects[drupal][type] = core
 
 ; Contrib Modules
 projects[] = calendar
@@ -19,7 +18,7 @@ projects[] = l10n_client
 projects[l10n_update][version] = 1.x-dev
 projects[] = libraries
 projects[] = pathauto
-projects[] = path_breadcrumbs
+projects[path_breadcrumbs][l10n_path] = "http://ftp.drupal.org/files/translations/7.x/path_breadcrumbs/path_breadcrumbs-7.x-3.0-beta2.es.po" 
 projects[] = references
 projects[] = storage_api
 projects[] = token
